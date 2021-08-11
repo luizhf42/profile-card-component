@@ -52,4 +52,4 @@ I want to continue aprimoring my CSS knowledge to make better (and responsive) d
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@luizhf42](https://www.frontendmentor.io/profile/luizhf42)
