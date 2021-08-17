@@ -27,13 +27,18 @@ body {
     justify-content: center;
 }
 
+h1 {
+    font-weight: normal;
+    font-size: inherit;
+}
+
 .card {
     width: 355px;
-    height: 360px;
+    height: auto;
     background-color: white;
     border-radius: 15px;
 }
-
+ 
 .card-bg {
     width: 100%;
     height: 135px;
@@ -46,13 +51,18 @@ body {
     border-radius: 50%;
     width: 96px;
     height: auto;
-    top: -14%;
+    transform: translateY(-50%);
     border: 5px solid white;
     margin: auto;
 }
 
 p {
     text-align: center;
+}
+
+.personal-stats {
+    padding-bottom: 10px;
+    transform: translateY(-80%);
 }
 
 .name, .stats-count {
@@ -67,7 +77,6 @@ p {
 .name-and-age, .location {
     position: relative;
     text-align: center;
-    top: -9%;
 }
 
 .name {
@@ -79,7 +88,12 @@ p {
     display: inline-block;
 }
 
+.location {
+    padding-top: 5px;
+}
+
 .stats {
+    padding-bottom: 30px;
     height: fit-content;
     display: flex;
     justify-content: space-evenly;
